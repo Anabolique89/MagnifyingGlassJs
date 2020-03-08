@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  text-align: center;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #333;
+  border-radius: 50%;
+  cursor: none;
+  /* magnifier size */
+  width: 100px;
+  height: 100px;
+}
+#myimage {
+  display: block;
+}
